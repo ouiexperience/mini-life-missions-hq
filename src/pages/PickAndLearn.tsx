@@ -19,21 +19,19 @@ const PickAndLearn: React.FC = () => {
           
           <main className="flex-1 container max-w-5xl mx-auto px-4 py-6 md:px-6 md:py-8">
             <div className="bg-white p-4 md:p-6 rounded-lg shadow-sm">
-              <div className="mb-4">
-                <Link to="/">
-                  <Button variant="ghost" size="sm" className="mb-4">
-                    <ArrowLeft className="h-4 w-4 mr-2" />
-                    Back to Home
-                  </Button>
-                </Link>
-                <h2 className="text-2xl font-bold text-primary">Pick &amp; Learn Missions</h2>
-                <p className="text-muted-foreground">Choose a mission to complete with your child</p>
-              </div>
+              <Link to="/" className="inline-flex mb-4">
+                <Button variant="ghost" size="sm" className="gap-1">
+                  <ArrowLeft className="h-4 w-4" />
+                  Back to Home
+                </Button>
+              </Link>
+              
+              <h1 className="text-3xl font-bold text-primary mb-6">Pick & Learn</h1>
               
               <ChildSelector />
               
-              <div className="flex justify-between items-center mb-4 mt-6">
-                <h3 className="text-xl font-semibold">Available Missions</h3>
+              <div className="flex justify-between items-center mb-4">
+                <h2 className="text-2xl font-bold text-primary">Life Missions</h2>
                 <PrintOptions />
               </div>
               

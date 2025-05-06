@@ -1,6 +1,9 @@
 
 import React from 'react';
 import Header from '@/components/Header';
+import ChildSelector from '@/components/ChildSelector';
+import MissionBrowser from '@/components/MissionBrowser';
+import PrintOptions from '@/components/PrintOptions';
 import { ChildProvider } from '@/context/ChildContext';
 import { MissionProvider } from '@/context/MissionContext';
 import { Button } from '@/components/ui/button';
@@ -16,25 +19,23 @@ const TurnItAround: React.FC = () => {
           
           <main className="flex-1 container max-w-5xl mx-auto px-4 py-6 md:px-6 md:py-8">
             <div className="bg-white p-4 md:p-6 rounded-lg shadow-sm">
-              <div className="mb-4">
-                <Link to="/">
-                  <Button variant="ghost" size="sm" className="mb-4">
-                    <ArrowLeft className="h-4 w-4 mr-2" />
-                    Back to Home
-                  </Button>
-                </Link>
-                <h2 className="text-2xl font-bold text-secondary">Turn It Around Moments</h2>
-                <p className="text-muted-foreground">Transform challenges into learning opportunities</p>
+              <Link to="/" className="inline-flex mb-4">
+                <Button variant="ghost" size="sm" className="gap-1">
+                  <ArrowLeft className="h-4 w-4" />
+                  Back to Home
+                </Button>
+              </Link>
+              
+              <h1 className="text-3xl font-bold text-secondary mb-6">Turn It Around Moments</h1>
+              
+              <ChildSelector />
+              
+              <div className="flex justify-between items-center mb-4">
+                <h2 className="text-2xl font-bold text-secondary">Life Missions</h2>
+                <PrintOptions />
               </div>
               
-              <div className="py-8 text-center">
-                <p className="text-lg mb-6">Coming soon! This section will help you turn everyday challenges into teachable moments.</p>
-                <Link to="/pick-and-learn">
-                  <Button variant="default">
-                    Explore Pick &amp; Learn Missions
-                  </Button>
-                </Link>
-              </div>
+              <MissionBrowser />
             </div>
           </main>
           
