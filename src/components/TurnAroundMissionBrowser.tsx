@@ -62,7 +62,7 @@ const TurnAroundMissionBrowser: React.FC = () => {
         </div>
         
         <div className="flex flex-col gap-2">
-          <div className="text-sm font-semibold">Filter by category:</div>
+          <h2 className="text-2xl font-bold text-secondary mb-2">Categories</h2>
           <div className="flex flex-wrap gap-2">
             <Button 
               variant={selectedCategory === null ? "default" : "outline"} 

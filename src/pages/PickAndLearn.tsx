@@ -31,7 +31,6 @@ const PickAndLearn: React.FC = () => {
               <ChildSelector />
               
               <div className="flex justify-between items-center mb-4">
-                <h2 className="text-2xl font-bold text-primary">Categories</h2>
                 <PrintOptions />
               </div>
               
