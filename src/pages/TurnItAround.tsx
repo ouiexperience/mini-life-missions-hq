@@ -31,7 +31,7 @@ const TurnItAround: React.FC = () => {
               <ChildSelector />
               
               <div className="flex justify-between items-center mb-4">
-                <h2 className="text-2xl font-bold text-secondary">Life Missions</h2>
+                <h2 className="text-2xl font-bold text-secondary">Categories</h2>
                 <TurnAroundPrintOptions />
               </div>
               
