@@ -3,7 +3,7 @@ import React from 'react';
 import Header from '@/components/Header';
 import ChildSelector from '@/components/ChildSelector';
 import TurnAroundMissionBrowser from '@/components/TurnAroundMissionBrowser';
-import PrintOptions from '@/components/PrintOptions';
+import TurnAroundPrintOptions from '@/components/TurnAroundPrintOptions';
 import { ChildProvider } from '@/context/ChildContext';
 import { TurnAroundProvider } from '@/context/TurnAroundContext';
 import { Button } from '@/components/ui/button';
@@ -32,7 +32,7 @@ const TurnItAround: React.FC = () => {
               
               <div className="flex justify-between items-center mb-4">
                 <h2 className="text-2xl font-bold text-secondary">Life Missions</h2>
-                <PrintOptions />
+                <TurnAroundPrintOptions />
               </div>
               
               <TurnAroundMissionBrowser />
