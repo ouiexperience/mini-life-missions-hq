@@ -2,10 +2,10 @@
 import React from 'react';
 import Header from '@/components/Header';
 import ChildSelector from '@/components/ChildSelector';
-import MissionBrowser from '@/components/MissionBrowser';
+import TurnAroundMissionBrowser from '@/components/TurnAroundMissionBrowser';
 import PrintOptions from '@/components/PrintOptions';
 import { ChildProvider } from '@/context/ChildContext';
-import { MissionProvider } from '@/context/MissionContext';
+import { TurnAroundProvider } from '@/context/TurnAroundContext';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
@@ -14,7 +14,7 @@ const TurnItAround: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background font-rounded">
       <ChildProvider>
-        <MissionProvider>
+        <TurnAroundProvider>
           <Header />
           
           <main className="flex-1 container max-w-5xl mx-auto px-4 py-6 md:px-6 md:py-8">
@@ -35,7 +35,7 @@ const TurnItAround: React.FC = () => {
                 <PrintOptions />
               </div>
               
-              <MissionBrowser />
+              <TurnAroundMissionBrowser />
             </div>
           </main>
           
@@ -44,7 +44,7 @@ const TurnItAround: React.FC = () => {
               <p>Mini Life Missions - Parent Dashboard</p>
             </div>
           </footer>
-        </MissionProvider>
+        </TurnAroundProvider>
       </ChildProvider>
     </div>
   );
