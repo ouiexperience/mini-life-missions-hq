@@ -23,9 +23,9 @@ const WelcomeSection: React.FC = () => {
         <Card className="p-6 hover:shadow-md transition-shadow border-2 border-secondary/20 hover:border-secondary/40 bg-inherit">
           <Link to="/turn-it-around" className="block h-full">
             <div className="flex flex-col h-full">
-              <h3 className="text-xl font-bold mb-3 text-mission-communication">Turn It Around Moments</h3>
+              <h3 className="text-xl font-bold mb-3 text-orange-500">Turn It Around Moments</h3>
               <p className="text-foreground/70 mb-4 flex-grow">Got a real-life challenge? Let's turn it into a learning win.</p>
-              <Button variant="secondary" className="w-full bg-mission-communication">
+              <Button variant="secondary" className="w-full bg-orange-500 hover:bg-orange-400">
                 Find Solutions
               </Button>
             </div>
