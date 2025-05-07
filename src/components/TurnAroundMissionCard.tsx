@@ -59,6 +59,15 @@ const TurnAroundMissionCard: React.FC<TurnAroundMissionCardProps> = ({ mission }
             {mission.whyThisMatters}
           </AccordionContent>
         </AccordionItem>
+        
+        <AccordionItem value="parent-tip">
+          <AccordionTrigger className="text-sm text-secondary font-semibold">
+            Parent Tip
+          </AccordionTrigger>
+          <AccordionContent className="text-sm text-gray-600 italic">
+            {mission.parentTip || "This activity helps your child navigate challenging moments. Guide the conversation with empathy, listen actively, and help them explore alternative responses."}
+          </AccordionContent>
+        </AccordionItem>
       </Accordion>
 
       <div className="flex justify-end">

@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import { Check } from 'lucide-react';
 import {
   Accordion,
@@ -57,6 +57,15 @@ const MissionCard: React.FC<MissionCardProps> = ({ mission }) => {
           </AccordionTrigger>
           <AccordionContent className="text-sm text-gray-600 italic">
             {mission.whyThisMatters}
+          </AccordionContent>
+        </AccordionItem>
+        
+        <AccordionItem value="parent-tip">
+          <AccordionTrigger className="text-sm text-primary font-semibold">
+            Parent Tip
+          </AccordionTrigger>
+          <AccordionContent className="text-sm text-gray-600 italic">
+            {mission.parentTip || "This mission helps your child develop important skills through everyday experiences. Guide the conversation by asking open-ended questions and allowing them to explain their thinking."}
           </AccordionContent>
         </AccordionItem>
       </Accordion>
