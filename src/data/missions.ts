@@ -14,13 +14,13 @@ export const missions: Mission[] = [
     category: "Money Smart",
     description: "Ask your child to find one penny, one nickel, one dime and one quarter. Together, line them up by value and say their names out loud.",
     whyThisMatters: "Kids need repeated hands-on exposure to understand money.",
-    parentTip: "This quick activity builds coin recognition and value comparison. Saying the coin names out loud reinforces vocabulary, while lining them up helps kids connect size, color, and value. Do it regularly—at home, in the car, or before a purchase—so they start to see coins as tools, not just shiny objects."
+    parentTip: "This quick activity builds coin recognition and value comparison. Saying the coin names out loud reinforces vocabular, while lining them up helps kids connect size, color, and value. Do it regularly—at home, in the car, or before a purchase—so they start to see coins as tools, not just shiny objects."
   },
   {
     id: 2,
     title: "Grocery Decision Duo",
     category: "Money Smart",
-    description: "At the store, ask: \"We can only pick one snack—this one is $3 and the other is $5. What should we choose and why?\"",
+    description: "At the store, pick two snacks: one around $3 for one person, and one around $5 meant for 2 people. Ask your child: \"We can only choose one snack. Which one would you choose and why?\"",
     whyThisMatters: "Real-time trade-off thinking builds budgeting instinct.",
     parentTip: "This mission helps your child think through everyday money decisions. It's not just about choosing the cheaper snack—it's about learning to consider value, sharing, and how choices affect future options. They might choose the $3 snack and say, \"Let's save the $2 for something else.\" Or they might choose the $5 snack and say, \"We can both enjoy it, and it's cheaper than buying two $3 snacks.\" These tiny decisions build real budgeting instincts over time."
   },
@@ -122,6 +122,15 @@ export const missions: Mission[] = [
     category: "Confidence & Connection",
     description: "Play with voice volume—whisper, soft, medium, loud. Ask: \"When would each be okay to use?\"",
     whyThisMatters: "Helps kids self-regulate and understand tone."
+  }
+  {
+    id: 16,
+    title: "The Green Challenge",
+    category: "Healthy Habits",
+    description: "Eat one green fruit or Veggie today. Ask: \"Can you name it and learn what it does for your body?\"",
+    whyThisMatters: "Green foods support growing brains and bones."
+    parentTip: "Green foods like spinach, broccoli, and peas are full of chlorophyll, folate, and fiber. These nutrients support brain development, strong bones, and healthy digestion. Invite your child to pick as green food and talk about its `superpower`."
+
   }
 ];
 
