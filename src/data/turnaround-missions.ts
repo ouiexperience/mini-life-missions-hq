@@ -61,7 +61,7 @@ export const turnAroundMissions: TurnAroundMission[] = [
     category: "Big Emotions",
     description: "Give a 5-minute warning and let your child help decide how to say goodbye to the place or people.",
     whyThisMatters: "Rituals make transitions feel safe and predictable for children.",
-    parentTip: "Soon available"
+    parentTip: "Soon very soon available"
   },
   {
     id: 7,
