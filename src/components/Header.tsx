@@ -1,7 +1,7 @@
 import React from 'react';
 import { Check } from 'lucide-react';
 const Header: React.FC = () => {
-  return <header className="py-4 px-4 md:px-6 shadow-md bg-orange-400">
+  return <header className="py-4 px-4 md:px-6 shadow-md bg-amber-400">
       <div className="container max-w-5xl mx-auto flex items-center justify-center md:justify-start">
         <div className="flex items-center gap-2">
           <div className="bg-white rounded-full p-2">
