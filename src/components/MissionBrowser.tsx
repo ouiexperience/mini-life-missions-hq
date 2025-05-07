@@ -53,9 +53,9 @@ const MissionBrowser: React.FC = () => {
         </div>
         
         <div className="flex flex-col gap-2">
-          <h2 className="text-2xl font-bold mb-2 text-cyan-600">Categories</h2>
+          <h2 className="text-2xl font-bold mb-2 text-lime-500">Categories</h2>
           <div className="flex flex-wrap gap-2">
-            <Button variant={selectedCategory === null ? "default" : "outline"} size="sm" onClick={() => handleCategoryFilter(null)} className="bg-cyan-600 hover:bg-cyan-500">
+            <Button variant={selectedCategory === null ? "default" : "outline"} size="sm" onClick={() => handleCategoryFilter(null)} className="bg-lime-500 hover:bg-lime-400">
               All
             </Button>
             <Button variant={selectedCategory === "Money Smart" ? "default" : "outline"} size="sm" className={selectedCategory === "Money Smart" ? "bg-mission-money text-white" : ""} onClick={() => handleCategoryFilter("Money Smart")}>
@@ -71,7 +71,7 @@ const MissionBrowser: React.FC = () => {
         </div>
         
         <div className="flex justify-end">
-          <Button variant="outline" onClick={handleRandomMission} className="bg-secondary text-secondary-foreground hover:bg-secondary/80">
+          <Button variant="outline" onClick={handleRandomMission} className="text-inherit bg-lime-500 hover:bg-lime-400">
             <Plus className="mr-1 h-4 w-4" />
             Random Mission
           </Button>

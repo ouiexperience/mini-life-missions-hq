@@ -23,7 +23,7 @@ const PickAndLearn: React.FC = () => {
                 </Button>
               </Link>
               
-              <h1 className="text-3xl font-bold mb-6 text-cyan-600">Pick & Learn</h1>
+              <h1 className="text-3xl font-bold mb-6 text-lime-500">Pick & Learn</h1>
               
               <ChildSelector />
               

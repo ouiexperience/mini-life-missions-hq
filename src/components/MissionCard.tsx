@@ -39,7 +39,7 @@ const MissionCard: React.FC<MissionCardProps> = ({
       
       <Accordion type="single" collapsible className="mb-4">
         <AccordionItem value="why-matters">
-          <AccordionTrigger className="text-sm font-semibold text-cyan-600">
+          <AccordionTrigger className="text-sm font-semibold text-lime-600">
             Why this matters
           </AccordionTrigger>
           <AccordionContent className="text-sm text-gray-600 italic">
@@ -48,7 +48,7 @@ const MissionCard: React.FC<MissionCardProps> = ({
         </AccordionItem>
         
         <AccordionItem value="parent-tip">
-          <AccordionTrigger className="text-sm font-semibold text-cyan-600">
+          <AccordionTrigger className="text-sm font-semibold text-lime-600">
             Parent Tip
           </AccordionTrigger>
           <AccordionContent className="text-sm text-gray-600 italic">
