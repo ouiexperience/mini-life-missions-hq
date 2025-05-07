@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Check } from 'lucide-react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -7,27 +8,29 @@ import { Mission, categoryColors } from '../data/missions';
 import { useMission } from '../context/MissionContext';
 import { useChild } from '../context/ChildContext';
 import { cn } from '@/lib/utils';
+
 interface MissionCardProps {
   mission: Mission;
 }
+
 const MissionCard: React.FC<MissionCardProps> = ({
   mission
 }) => {
-  const {
-    selectedChild
-  } = useChild();
-  const {
-    toggleMissionCompletion,
-    isMissionCompleted
-  } = useMission();
+  const { selectedChild } = useChild();
+  const { toggleMissionCompletion, isMissionCompleted } = useMission();
+  
   const categoryColor = categoryColors[mission.category as keyof typeof categoryColors] || "mission-health";
   const isCompleted = selectedChild ? isMissionCompleted(mission.id, selectedChild.id) : false;
+  
   const handleComplete = () => {
     if (selectedChild) {
       toggleMissionCompletion(mission.id, selectedChild.id);
     }
   };
-  return <div className={cn("border rounded-lg p-4 transition-all duration-300 hover:shadow-md", isCompleted ? "mission-completed border-green-500" : `border-${categoryColor}`)}>
+
+  return (
+    <div className={cn("border rounded-lg p-4 transition-all duration-300 hover:shadow-md", 
+      isCompleted ? "mission-completed border-green-500" : `border-${categoryColor}`)}>
       <div className="flex justify-between items-start mb-2">
         <h3 className="font-bold text-lg">{mission.title}</h3>
         <Badge variant="outline" className={`category-${categoryColor} border px-2 py-1 text-xs`}>
@@ -58,13 +61,24 @@ const MissionCard: React.FC<MissionCardProps> = ({
       </Accordion>
 
       <div className="flex justify-end">
-        <Button variant={isCompleted ? "default" : "outline"} size="sm" className={cn("transition-colors", isCompleted ? "bg-green-500 hover:bg-green-600" : "")} onClick={handleComplete} disabled={!selectedChild}>
-          {isCompleted ? <>
+        <Button 
+          variant={isCompleted ? "default" : "outline"} 
+          size="sm" 
+          className={cn("transition-colors", isCompleted ? "bg-green-500 hover:bg-green-600" : "")} 
+          onClick={handleComplete} 
+          disabled={!selectedChild}
+          type="button"
+        >
+          {isCompleted ? (
+            <>
               <Check className="mr-1 h-4 w-4" />
               Completed
-            </> : "Mark Complete"}
+            </>
+          ) : "Mark Complete"}
         </Button>
       </div>
-    </div>;
+    </div>
+  );
 };
+
 export default MissionCard;
