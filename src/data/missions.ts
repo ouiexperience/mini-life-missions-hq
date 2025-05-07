@@ -21,7 +21,7 @@ export const missions: Mission[] = [
     id: 2,
     title: "Grocery Decision Duo",
     category: "Money Smart",
-    description: "At the store, pick two snacks: one around $3 for one person, and one around $5 meant for 2 people. Ask your child: \"We can only choose one snack. Which one would you choose and why?\"",
+    description: "At the store, pick two snacks—one around $3 meant for one person, and one around $5 meant for two people. Ask your child: \"We can only choose one snack. Which one would you pick and why?\"",
     whyThisMatters: "Real-time trade-off thinking builds budgeting instinct.",
     parentTip: "This mission helps your child think through everyday money decisions. It's not just about choosing the cheaper snack—it's about learning to consider value, sharing, and how choices affect future options. They might choose the $3 snack and say, \"Let's save the $2 for something else.\" Or they might choose the $5 snack and say, \"We can both enjoy it, and it's cheaper than buying two $3 snacks.\" These tiny decisions build real budgeting instincts over time."
   },
@@ -37,24 +37,24 @@ export const missions: Mission[] = [
     id: 4,
     title: "Jar Challenge",
     category: "Money Smart",
-    description: "Give your child 3 jars or cups: Save, Spend, and Give. Hand them $1 in coins and let them decide how to divide it.",
-    whyThisMatters: "Visual budgeting is powerful at this age.",
-    parentTip: "This mission introduces your child to real-world money categories. Each jar teaches a purpose: Needs for essentials, Wants for fun and extras, Education for learning tools or experiences, Emergency for surprise problems, Giving to help others, Investment to grow money over time. Let your child decide how to divide the money and explain why. There's no right or wrong—just insight into how they think."
+    description: "Give your child 6 jars or cups labeled: Needs, Wants, Education, Emergency, Giving, and Investment. Hand them $1 in coins and let them decide how to divide it. Ask, \"Why did you choose to put the money there?\"",
+    whyThisMatters: "Visual budgeting is powerful at this age—it helps kids internalize the idea that money has different jobs.",
+    parentTip: "This mission introduces your child to real-world money categories. Each jar teaches a purpose: \"Needs for essentials\" \"Wants for fun and extras\" \"Education for learning tools or experiences\" \"Emergency for surprise problems\" \"Giving to help others \" \"Investment to grow money over time\" \"Let your child decide how to divide the $1 and explain why. There's no right or wrong—just insight into how they think. The goal is to spark thoughtful conversations and lay the foundation for lifelong money confidence."
   },
   {
     id: 5,
     title: "Money Memory Game",
     category: "Money Smart",
-    description: "Show them 5 toy prices (real or pretend), then cover them and quiz: \"Which one was most expensive?\"",
+    description: "Show your child 5 items with prices (toys or household items). Then cover the prices and ask: Which one was the most expensive?",
     whyThisMatters: "Builds price awareness and memory.",
     parentTip: "This game sharpens your child's awareness of how much things cost—a skill that leads to better decision-making. Use everyday objects like cereal, soap, socks, or snacks with their prices. Ask which was most expensive, least expensive, or which item felt \"worth it.\" These short memory games build price-checking habits they'll use for life."
   },
   {
     id: 6,
-    title: "Rainbow Hunt",
+    title: "The Green Challenge",
     category: "Healthy Habits",
-    description: "Ask your child to eat a food from 5 different colors today (e.g., red apple, green peas, orange carrots).",
-    whyThisMatters: "Color variety = more nutrients.",
+    description: "Eat one green fruit or veggie today. Can you name it and learn what it does for your body?",
+    whyThisMatters: "Green foods support growing brains and bones.",
     parentTip: "The Green Challenge: Green foods like spinach, broccoli, and peas are full of chlorophyll, folate, and fiber. These nutrients support brain development, strong bones, and healthy digestion. Invite your child to pick a green food and talk about its \"superpower.\""
   },
   {
