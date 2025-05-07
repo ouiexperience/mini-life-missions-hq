@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from '@/components/Header';
 import ChildSelector from '@/components/ChildSelector';
@@ -9,10 +8,8 @@ import { MissionProvider } from '@/context/MissionContext';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
-
 const PickAndLearn: React.FC = () => {
-  return (
-    <div className="min-h-screen flex flex-col bg-background font-rounded">
+  return <div className="min-h-screen flex flex-col bg-background font-rounded">
       <ChildProvider>
         <MissionProvider>
           <Header />
@@ -26,7 +23,7 @@ const PickAndLearn: React.FC = () => {
                 </Button>
               </Link>
               
-              <h1 className="text-3xl font-bold text-primary mb-6">Pick & Learn</h1>
+              <h1 className="text-3xl font-bold mb-6 text-cyan-600">Pick & Learn</h1>
               
               <ChildSelector />
               
@@ -45,8 +42,6 @@ const PickAndLearn: React.FC = () => {
           </footer>
         </MissionProvider>
       </ChildProvider>
-    </div>
-  );
+    </div>;
 };
-
 export default PickAndLearn;
