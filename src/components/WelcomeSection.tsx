@@ -20,7 +20,7 @@ const WelcomeSection: React.FC = () => {
           </Link>
         </Card>
         
-        <Card className="p-6 hover:shadow-md transition-shadow border-2 border-secondary/20 hover:border-secondary/40">
+        <Card className="p-6 hover:shadow-md transition-shadow border-2 border-secondary/20 hover:border-secondary/40 bg-inherit">
           <Link to="/turn-it-around" className="block h-full">
             <div className="flex flex-col h-full">
               <h3 className="text-xl font-bold mb-3 text-emerald-600">Turn It Around Moments</h3>
