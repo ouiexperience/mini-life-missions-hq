@@ -5,6 +5,7 @@ export interface TurnAroundMission {
   category: "Everyday Battles" | "Big Emotions" | "Power Struggles";
   description: string;
   whyThisMatters: string;
+  parentTip?: string;
 }
 
 export const categoryColors = {
@@ -125,4 +126,3 @@ export const getRandomTurnAroundMission = (): TurnAroundMission => {
   const randomIndex = Math.floor(Math.random() * turnAroundMissions.length);
   return turnAroundMissions[randomIndex];
 };
-
