@@ -1,3 +1,4 @@
+
 export interface Mission {
   id: number;
   title: string;
@@ -122,15 +123,14 @@ export const missions: Mission[] = [
     category: "Confidence & Connection",
     description: "Play with voice volume—whisper, soft, medium, loud. Ask: \"When would each be okay to use?\"",
     whyThisMatters: "Helps kids self-regulate and understand tone."
-  }
+  },
   {
     id: 16,
     title: "The Green Challenge",
     category: "Healthy Habits",
     description: "Eat one green fruit or Veggie today. Ask: \"Can you name it and learn what it does for your body?\"",
-    whyThisMatters: "Green foods support growing brains and bones."
-    parentTip: "Green foods like spinach, broccoli, and peas are full of chlorophyll, folate, and fiber. These nutrients support brain development, strong bones, and healthy digestion. Invite your child to pick as green food and talk about its `superpower`."
-
+    whyThisMatters: "Green foods support growing brains and bones.",
+    parentTip: "Green foods like spinach, broccoli, and peas are full of chlorophyll, folate, and fiber. These nutrients support brain development, strong bones, and healthy digestion. Invite your child to pick a green food and talk about its `superpower`."
   }
 ];
 
