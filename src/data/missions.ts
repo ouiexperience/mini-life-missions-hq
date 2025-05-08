@@ -2,7 +2,7 @@
 export interface Mission {
   id: number;
   title: string;
-  category: "Money Smart" | "Healthy Habits" | "Confidence & Connection";
+  category: "Money" ;
   description: string;
   whyThisMatters: string;
   parentTip?: string;
