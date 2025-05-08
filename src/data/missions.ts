@@ -51,11 +51,11 @@ export const missions: Mission[] = [
   },
   {
     id: 6,
-    title: "The Green Challenge",
-    category: "Healthy Habits",
-    description: "Eat one green fruit or veggie today. Can you name it and learn what it does for your body?",
-    whyThisMatters: "Green foods support growing brains and bones.",
-    parentTip: "The Green Challenge: Green foods like spinach, broccoli, and peas are full of chlorophyll, folate, and fiber. These nutrients support brain development, strong bones, and healthy digestion. Invite your child to pick a green food and talk about its \"superpower.\""
+    title: "Change Maker Mission",
+    category: "Money Smart",
+    description: "Give your child a challenge: \"Can you make 25 cents using only 4 coins?\" Let them experiment with real or play coins. Ask, \"Is there more than one way to do it?\"",
+    whyThisMatters: "Strengthens coin value recognition and flexible problem solving.",
+    parentTip: "This hands-on puzzle helps your child understand how different coins add up to the same value. It's not just about memorizing—it’s about thinking creatively with money. If they find one solution (2 dimes + 1 nickel), prompt them to try another (1 quarter). Let them explain their thinking—it boosts both math and money skills."
   },
   {
     id: 7,
@@ -63,21 +63,21 @@ export const missions: Mission[] = [
     category: "Healthy Habits",
     description: "Grab two snacks and read the sugar grams together. Ask, \"Which has more sugar?\"",
     whyThisMatters: "Builds early nutrition label awareness.",
-    parentTip: "This mission introduces your child to the idea that not all snacks are the same—even if they look similar. Learning to read nutrition labels helps kids make smart choices early. Start with sugar, then later explore fat, fiber, or ingredients. You don't need to ban sugary snacks—just start asking, \"Is this an everyday food or a sometimes treat?\" It plants the seed for mindful eating."
+    parentTip: "This mission introduces your child to the idea that not all snacks are the same even if they look similar. Learning to read nutrition labels helps kids make smart choices early. Start with sugar, then later explore fat, fiber, or ingredients. You don't need to ban sugary snacks—just start asking, \"Is this an everyday food or a sometimes treat?\" It plants the seed for mindful eating."
   },
   {
     id: 8,
     title: "Snack Switch",
     category: "Healthy Habits",
-    description: "Offer 2 snacks: one sugary, one whole (like fruit or cheese). Ask them to try both and describe how they feel after each.",
-    whyThisMatters: "Teaches mindful eating.",
+    description: "Offer a sugary snack one day and a whole food snack (like fruit or cheese) on another. About 20 minutes after eating, ask: \"How does your body feel?\" Bonus Tip for Parents: Set a timer if needed! You could say: \"“Let’s check in with your body in 20 minutes and see what it tells us.\"",
+    whyThisMatters: "Teaches kids to notice how different foods affect their energy and mood",
     parentTip: "Split this mission across two snack times or days. First, let them enjoy a sweet snack, then later try something whole and nourishing. Ask simple reflection questions after each one: \"Do you feel full or still hungry?\" \"Do you feel ready to play or kind of sleepy?\" This builds body awareness and helps kids notice how food affects focus, energy, and emotions—without guilt or pressure."
   },
   {
     id: 9,
     title: "Water Buddy",
     category: "Healthy Habits",
-    description: "Set a timer for 2 hours. Ask your child to drink one glass of water before it rings.",
+    description: "Set a timer for 2 hours. Ask your child to drink one glass of water before it rings. You can name the timer something fun, like \"The Water Dragon!\"",
     whyThisMatters: "Forms healthy hydration habits.",
     parentTip: "Kids often forget to drink water unless it's part of a game or routine. This mission helps make hydration fun and easy. Drinking water regularly supports focus, digestion, mood, and energy. You can set a few \"Water Buddy\" timers throughout the day, especially during screen time or outdoor play. Let your child track how many times they beat the timer with a sticker or tally!"
   },
@@ -85,44 +85,49 @@ export const missions: Mission[] = [
     id: 10,
     title: "Make-a-Plate Game",
     category: "Healthy Habits",
-    description: "Have your child draw a plate with healthy items for breakfast. Let them explain their choices.",
-    whyThisMatters: "Planning meals builds food literacy.",
-    parentTip: "This mission helps kids think ahead and recognize what a balanced meal might look like. Encourage them to include items from multiple food groups: Fruit (energy and vitamins), Grain (like toast or oatmeal for fuel), Protein (like eggs or yogurt to build muscles), Veggies (like spinach or tomatoes — yes, even at breakfast!), Dairy or healthy fats (like cheese, milk, or nut butter). Let them get creative—this isn't about perfection."
+    description: "Have your child draw a plate with healthy foods for breakfast. Ask them to explain their choices—what’s on it, and why they picked it!",
+    whyThisMatters: "Planning meals builds food literacy and confidence.",
+    parentTip: "This mission helps kids think ahead and recognize what a balanced meal might look like. Encourage them to include items from multiple food groups: Fruit (energy and vitamins) Grain (like toast or oatmeal for fuel) Protein (like eggs or yogurt to build muscles) Veggies (like spinach or tomatoes — yes, even at breakfast!) Dairy or healthy fats (like cheese, milk, or nut butter) Let them get creative—this isn't about perfection. Drawing and explaining builds both nutrition knowledge and decision-making skills."
   },
   {
     id: 11,
     title: "Compliment Challenge",
     category: "Confidence & Connection",
     description: "Ask your child to give one genuine compliment to someone today. Reflect at bedtime: \"How did they react?\"",
-    whyThisMatters: "Builds empathy and verbal courage."
+    whyThisMatters: "Builds empathy and verbal courage.",
+    parentTip: "Compliments are powerful tools for connection. This mission teaches kids how words can affect others. Praise specific compliments like, 'I liked how you noticed your friend’s drawing.' At bedtime, reflect on how giving the compliment made them feel—it helps them internalize the joy of kindness."
   },
   {
     id: 12,
     title: "Feelings Freeze Frame",
     category: "Confidence & Connection",
     description: "Say an emotion (happy, mad, sad, worried) and ask your child to show it with their face and body—no words.",
-    whyThisMatters: "Boosts emotional intelligence and nonverbal skills."
+    whyThisMatters: "Boosts emotional intelligence and nonverbal skills.",
+    parentTip: "Nonverbal expression is a key part of emotional intelligence. This game helps kids connect body language to feelings. Make it fun—join in, guess each other's emotions, and use it later when big feelings show up to say, \"Can you show me how you feel with your body?\""
   },
   {
     id: 13,
     title: "Mirror Talk",
     category: "Confidence & Connection",
     description: "Look in a mirror and say one nice thing about yourself. You go first.",
-    whyThisMatters: "Builds self-esteem and expressive language."
+    whyThisMatters: "Builds self-esteem and expressive language.",
+    parentTip: "Many kids struggle to say kind things about themselves out loud. Go first and model it: \"I like that I kept trying today.\" This sets the tone. Mirror talk may feel silly at first, but over time it helps kids create a kind inner voice they’ll carry into tough moments."
   },
   {
     id: 14,
     title: "Tell Me More",
     category: "Confidence & Connection",
     description: "At dinner, ask a question like \"What was something weird today?\" and follow up with: \"Tell me more.\"",
-    whyThisMatters: "Teaches listening and deeper sharing."
+    whyThisMatters: "Teaches deeper sharing.",
+    parentTip: "This mission helps shift from surface-level talk to real connection. Avoid jumping in with advice or reactions—just say, 'Tell me more' and really listen. The goal is to help your child feel heard, which builds trust and opens the door to future conversations."
   },
   {
     id: 15,
     title: "Voice Volume Practice",
     category: "Confidence & Connection",
     description: "Play with voice volume—whisper, soft, medium, loud. Ask: \"When would each be okay to use?\"",
-    whyThisMatters: "Helps kids self-regulate and understand tone."
+    whyThisMatters: "Helps kids self-regulate and understand tone.",
+    parentTip: "Many kids get \"too loud\" warnings without ever being taught what \"loud\" or \"soft\" really means. Practicing volume playfully helps them internalize control. Link each volume to a real setting: whisper for the library, loud for the playground. This builds social awareness and self-regulation."
   },
   {
     id: 16,
