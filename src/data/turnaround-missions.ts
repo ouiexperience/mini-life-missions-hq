@@ -2,7 +2,7 @@
 export interface TurnAroundMission {
   id: number;
   title: string;
-  category: "Everyday";
+  category: "day";
   description: string;
   whyThisMatters: string;
   parentTip?: string;
@@ -21,14 +21,6 @@ export const turnAroundMissions: TurnAroundMission[] = [
     category: "Battles",
     description: "together."
      }
-  {
-    id: 15,
-    title: "The Bedtime Push",
-    category: "Power Struggles",
-    description: "Create a bedtime chart they decorate, with a 3-step wind-down routine they control.",
-    whyThisMatters: "Predictable routines help children feel safe and fall asleep easier.",
-    parentTip: "Soon available"
-  }
 ];
 
 export const getRandomTurnAroundMission = (): TurnAroundMission => {
