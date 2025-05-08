@@ -12,7 +12,7 @@ export const missions: Mission[] = [
   {
     id: 1,
     title: "Coi",
-    category: "Mone",
+    category: "Mne",
     description: "Ask ",
     whyThisMatters: "Kids "
   }
