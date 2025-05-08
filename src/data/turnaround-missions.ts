@@ -2,7 +2,7 @@
 export interface TurnAroundMission {
   id: number;
   title: string;
-  category: "Everyday Battles" | "Big Emotions" | "Power Struggles";
+  category: "Everyday";
   description: string;
   whyThisMatters: string;
   parentTip?: string;
@@ -20,8 +20,7 @@ export const turnAroundMissions: TurnAroundMission[] = [
     title: "Trap",
     category: "Battles",
     description: "together."
-   
-  }
+     }
   {
     id: 15,
     title: "The Bedtime Push",
