@@ -39,7 +39,7 @@ export const missions: Mission[] = [
     category: "Money Smart",
     description: "Give your child 6 jars or cups labeled: Needs, Wants, Education, Emergency, Giving, and Investment. Hand them $1 in coins and let them decide how to divide it. Ask, \"Why did you choose to put the money there?\"",
     whyThisMatters: "Visual budgeting is powerful at this age—it helps kids internalize the idea that money has different jobs.",
-    parentTip: "This mission introduces your child to real-world money categories. Each jar teaches a purpose: \"Needs for essentials\" \"Wants for fun and extras\" \"Education for learning tools or experiences\" \"Emergency for surprise problems\" \"Giving to help others \" \"Investment to grow money over time\" \"Let your child decide how to divide the $1 and explain why. There's no right or wrong—just insight into how they think. The goal is to spark thoughtful conversations and lay the foundation for lifelong money confidence."
+    parentTip: "This mission introduces your child to real-world money categories. Each jar teaches a purpose: \"Needs for essentials\" \"Wants for fun and extras\" \"Education for learning tools or experiences\" \"Emergency for surprise problems\" \"Giving to help others \" \"Investment to grow money over time\" Let your child decide how to divide the $1 and explain why. There's no right or wrong—just insight into how they think. The goal is to spark thoughtful conversations and lay the foundation for lifelong money confidence."
   },
   {
     id: 5,
@@ -131,6 +131,90 @@ export const missions: Mission[] = [
     description: "Eat one green fruit or Veggie today. Ask: \"Can you name it and learn what it does for your body?\"",
     whyThisMatters: "Green foods support growing brains and bones.",
     parentTip: "Green foods like spinach, broccoli, and peas are full of chlorophyll, folate, and fiber. These nutrients support brain development, strong bones, and healthy digestion. Invite your child to pick a green food and talk about its `superpower`."
+  },
+  {
+    id: 17,
+    title: "The Orange Power-Up",
+    category: "Healthy Habits",
+    description: "Find and eat something orange (like a carrot or sweet potato). What does it do for your body?",
+    whyThisMatters: "Orange foods help build strong eyesight and immunity."
+  },
+  {
+    id: 18,
+    title: "The Red Boost",
+    category: "Healthy Habits",
+    description: "Pick a red food and eat it today. Why might it be good for your heart?",
+    whyThisMatters: "Red foods protect the heart and keep blood healthy."
+  },
+  {
+    id: 19,
+    title: "The Blue-Purple Protector",
+    category: "Healthy Habits",
+    description: "Eat a blue or purple food today—bonus points if it stains your tongue!",
+    whyThisMatters: "These foods protect the brain and help the body heal."
+  },
+  {
+    id: 20,
+    title: "The White Energy Boost",
+    category: "Healthy Habits",
+    description: "Try a white or light brown food like garlic, cauliflower, or bananas. How does it help you move and think?",
+    whyThisMatters: "White foods often give the body energy and fight germs."
+  },
+  {
+    id: 21,
+    title: "Brown Power Fuel",
+    category: "Healthy Habits",
+    description: "Eat something brown today—like whole grain bread, oats, or lentils. Ask: “What do you think this food does for your body?”",
+    whyThisMatters: "Brown foods give lasting energy and support digestion."
+  },
+  {
+    id: 22,
+    title: "Black Brain Boost",
+    category: "Healthy Habits",
+    description: "Try a black-colored food like blackberries, black beans, or chia seeds. Ask: “How does this food help your brain or body?”",
+    whyThisMatters: "Black foods are rich in antioxidants and support brain health."
+  },
+  {
+    id: 23,
+    title: "Fruit Finder",
+    category: "Healthy Habits",
+    description: "Today, try a new fruit or build a “fruit rainbow” on your plate. Can you name what each color does for your body?",
+    whyThisMatters: "Fruits are full of vitamins and natural energy that help the body stay healthy and strong."
+  },
+  {
+    id: 24,
+    title: "Veggie Explorer",
+    category: "Healthy Habits",
+    description: "Eat a vegetable today you don’t usually eat—try it raw, dipped, or cooked a new way. Can you guess what its color does?",
+    whyThisMatters: "Vegetables give your child the building blocks to grow, fight off sickness, and stay energized."
+  },
+  {
+    id: 25,
+    title: "Grain Brain Boost",
+    category: "Healthy Habits",
+    description: "Choose a whole grain food today—like oatmeal, brown bread, or popcorn. What kind of energy do you think it gives you?",
+    whyThisMatters: "Whole grains give long-lasting energy and keep the brain focused."
+  },
+  {
+    id: 26,
+    title: "Protein Power-Up",
+    category: "Healthy Habits",
+    description: "Eat a protein-rich food today—like eggs, beans, or chicken. Ask: “How does protein help your body?”",
+    whyThisMatters: "Protein helps muscles grow, repairs the body, and gives strength."
+  },
+  {
+    id: 27,
+    title: "Dairy Strong Bones",
+    category: "Healthy Habits",
+    description: "Drink milk or eat cheese or yogurt today. Then do 5 jumps and say “I’ve got strong bones!”",
+    whyThisMatters: "Dairy builds strong bones, teeth, and muscles."
+  },
+  {
+    id: 28,
+    title: "Healthy Fat Hero",
+    category: "Healthy Habits",
+    description: "Try a food today with healthy fat—like avocado, peanut butter, or seeds. Ask: “What does this do for your brain?”",
+    whyThisMatters: "Healthy fats help brains grow, boost focus, and protect organs."
   }
 ];
 
