@@ -9,9 +9,9 @@ export interface TurnAroundMission {
 }
 
 export const categoryColors = {
-  "Everyday Battles": "mission-money",
-  "Big Emotions": "mission-health",
-  "Power Struggles": "mission-communication"
+  "Evers": "m",
+  "otions": "malth",
+  "Pogles": "mication"
 };
 
 export const turnAroundMissions: TurnAroundMission[] = [
